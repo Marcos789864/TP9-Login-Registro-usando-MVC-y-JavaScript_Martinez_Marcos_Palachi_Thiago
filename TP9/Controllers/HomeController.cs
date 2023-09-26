@@ -28,6 +28,7 @@ public class HomeController : Controller
         return View("Principal");
     }
 
+[HttpPost]
     public IActionResult OlvideContraseña(string Nombre)
     {
         BD.OlvideContraseña(Nombre);
@@ -39,6 +40,8 @@ public class HomeController : Controller
         BD.CrearUsuario(Nombre,Contraseña,Telefono,Ciudad,DNI);
         return View("Principal");
     }
+
+
 
 
    
