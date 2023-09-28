@@ -21,7 +21,7 @@ public class HomeController : Controller
     public IActionResult Account(string Nombre, string Contraseña,int Telefono, string Ciudad,int DNI)
     {
         
-        if (BD.IniciarSesion(Nombre,Constraseña,Telefono,Ciudad,DNI) = null )
+        if (BD.IniciarSesion(Nombre,Contraseña,Telefono,Ciudad,DNI) = null )
         {
             return View("Login");
         }
@@ -29,12 +29,14 @@ public class HomeController : Controller
     }
 
 [HttpPost]
-    public IActionResult OlvideContraseña(string Nombre)
+    public IActionResult ObtnerContraseña(string Nombre)
     {
-        BD.OlvideContraseña(Nombre);
+        BD.ObtnerContraseña(Nombre);
         return RedirectToAction("Account");
     }
 
+
+[HttpPost]
     public IActionResult CrearUsuario(string Nombre, string Contraseña,int Telefono, string Ciudad,int DNI)
     {
         BD.CrearUsuario(Nombre,Contraseña,Telefono,Ciudad,DNI);

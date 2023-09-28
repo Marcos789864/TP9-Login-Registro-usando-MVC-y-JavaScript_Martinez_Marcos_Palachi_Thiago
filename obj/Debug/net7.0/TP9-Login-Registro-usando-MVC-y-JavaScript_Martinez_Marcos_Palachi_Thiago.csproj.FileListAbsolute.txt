@@ -1,0 +1,8 @@
+C:\Users\47807324\Desktop\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago\obj\Debug\net7.0\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago.csproj.AssemblyReference.cache
+C:\Users\47807324\Desktop\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago\obj\Debug\net7.0\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47807324\Desktop\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago\obj\Debug\net7.0\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago.AssemblyInfoInputs.cache
+C:\Users\47807324\Desktop\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago\obj\Debug\net7.0\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago.AssemblyInfo.cs
+C:\Users\47807324\Desktop\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago\obj\Debug\net7.0\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago.csproj.CoreCompileInputs.cache
+C:\Users\47807324\Desktop\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago\obj\Debug\net7.0\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\47807324\Desktop\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago\obj\Debug\net7.0\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago.RazorAssemblyInfo.cache
+C:\Users\47807324\Desktop\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago\obj\Debug\net7.0\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago.RazorAssemblyInfo.cs
