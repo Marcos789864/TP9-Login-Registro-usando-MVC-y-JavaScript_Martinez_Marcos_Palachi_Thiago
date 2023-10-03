@@ -46,3 +46,50 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+
+
+.header{
+  background-color: #cfcfcf;
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo img{
+  margin-top: 5px;
+  height: 75px;
+  width: auto;
+}
+nav{
+  background-color:darkgrey;
+}
+nav ul{
+ 
+  list-style-type: none;
+  text-align: left;
+}
+
+
+nav li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+
+
+nav li a {
+  padding: 2px 7px 2px 7px;
+  color: #3a3939;
+  text-decoration:none;
+}
+
+
+nav li a:hover{
+  background-color: #333333;
+  color: #ffffff;
+}
+
+
+h1{
+  display: flex;
+  justify-content:center;
+  font-size: 80px;
+}

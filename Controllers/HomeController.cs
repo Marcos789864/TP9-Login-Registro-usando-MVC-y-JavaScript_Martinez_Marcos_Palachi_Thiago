@@ -18,35 +18,48 @@ public class HomeController : Controller
         return View("Login");
     }
 
-    public IActionResult Account(string Nombre, string Contraseña,int Telefono, string Ciudad,int DNI)
+    public IActionResult Registro()
     {
-        
-        if (BD.IniciarSesion(Nombre,Contraseña,Telefono,Ciudad,DNI) = null )
-        {
-            return View("Login");
-        }
+        return View("Registrarse");     
+    }
+
+    public IActionResult Principal(Usuario us1)
+    {
         return View("Principal");
     }
 
-[HttpPost]
-    public IActionResult ObtnerContraseña(string Nombre)
+    public IActionResult OlvideContraseña()
     {
-        BD.ObtnerContraseña(Nombre);
-        return RedirectToAction("Account");
+        return View("Olvidar contraseña");
+    }
+[HttpPost]
+    public IActionResult Account(string Nombre, string Contraseña)
+    {
+        ViewBag.us1 = BD.IniciarSesion(Nombre,Contraseña);
+        if (ViewBag.us1 == null )
+        {
+            return View("Login");
+        }
+        return RedirectToAction("Principal",new{us1 = ViewBag.us1});
+    }
+
+
+
+[HttpPost]
+    public IActionResult ObtnerContraseña(int DNI)
+    {
+        ViewBag.Contraseña = BD.ObtnerContraseña(DNI);
+        
+        return View("Olvidar contraseña");
     }
 
 
 [HttpPost]
     public IActionResult CrearUsuario(string Nombre, string Contraseña,int Telefono, string Ciudad,int DNI)
     {
-        BD.CrearUsuario(Nombre,Contraseña,Telefono,Ciudad,DNI);
-        return View("Principal");
+        ViewBag.us1 = BD.CrearUsuario(Nombre,Contraseña,Telefono,Ciudad,DNI);
+        return View("Principal", new {us1 = ViewBag.us1});
     }
-
-
-
-
-   
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AltSnxdET21Zu5W4Q933IWYggqy+unuqdJmOm2NJZhmoh0UBF3Y05yS37mMQlZ3VuFOmyCrjbYE1hFw6sF2Y4A==",
+  "dgSpecHash": "Esf6JaBvX7J5VukZRHJVcV5iqJJi8hAxalYZ/teHygjq5Qx/1ZD9ZD304tohSerPDQ3xwTTN2LeRwSAuTcWBeg==",
   "success": true,
   "projectFilePath": "C:\\Users\\47807324\\Desktop\\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago\\TP9-Login-Registro-usando-MVC-y-JavaScript_Martinez_Marcos_Palachi_Thiago.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\47807324\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
+    "C:\\Users\\47807324\\.nuget\\packages\\dapper\\2.1.4\\dapper.2.1.4.nupkg.sha512",
     "C:\\Users\\47807324\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\47807324\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\47807324\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

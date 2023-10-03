@@ -1,17 +1,10 @@
-﻿let Nombre = document.getElementById('Nombre');
+﻿
 
 
 
-
-
-
-
-
-
-
-function Contraseña()
+function contraseña()
 {
-    let contrasenaUsuario = prompt("Por favor, ingresa tu contraseña:");
+    let contrasenaUsuario = document.getElementById('Contraseña')
 
 
     if (validacionDefinitiva(contrasenaUsuario) == false )
@@ -54,4 +47,6 @@ function Contraseña()
         return false;
     }
 }
+    
+
 

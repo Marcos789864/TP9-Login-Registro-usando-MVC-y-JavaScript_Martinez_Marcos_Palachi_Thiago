@@ -1,11 +1,16 @@
-<form action= '@Url.Action("OlvideContraseña")' method = "post">
+<form action= '@Url.Action("ObtnerContraseña")' method = "post">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Contraseña</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <label for="DNI" class="form-label">DNI</label>
+    <input type="number" class="form-control" id="DNI" required>
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Repetir Contraseña</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <label for="DNI" class="form-label">Repetir DNI</label>
+    <input type="number" class="form-control" id="DNI" name="DNI" required>
   </div>
   <button type="text" class="btn btn-primary">Submit</button>
+  
+
+  <h1> Tu contraseña es: @ViewBag.Contraseña</h1>
 </form>
+
+<h1><a href='@Url.Action("Index")'> Volver</a></h1>
