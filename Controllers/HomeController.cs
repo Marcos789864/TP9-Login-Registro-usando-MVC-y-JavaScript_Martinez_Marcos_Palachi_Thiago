@@ -23,8 +23,9 @@ public class HomeController : Controller
         return View("Registrarse");     
     }
 
-    public IActionResult Principal(Usuario us1)
+    public IActionResult Principal(string Nombre, string Contraseña)
     {
+        ViewBag.us1 = BD.IniciarSesion(Nombre,Contraseña);
         return View("Principal");
     }
 
@@ -40,7 +41,7 @@ public class HomeController : Controller
         {
             return View("Login");
         }
-        return RedirectToAction("Principal",new{us1 = ViewBag.us1});
+        return RedirectToAction("Principal",new{Nombre = ViewBag.us1.Nombre, Contraseña=ViewBag.us1.Contraseña});
     }
 
 

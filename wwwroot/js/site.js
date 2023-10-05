@@ -5,28 +5,33 @@
 function contraseña()
 {
     let contrasenaUsuario = document.getElementById('Contraseña')
+    let bool;
 
 
     if (validacionDefinitiva(contrasenaUsuario) == false )
     {
-        prompt("Por favor reingrese la contraeña:");
+        alert("Por favor reingrese la contraeña:");
+        return false;
     }
     else
     console.log(contrasenaUsuario);
        
     function validarLongitud(contrasenaUsuario) {
+        
         if (contrasenaUsuario.length < 8) {
-            return false;
+            return bool = false;
         }
+        alert("1");
         return true;
     }
         
     function validarMayuscula(contrasenaUsuario){
         for (let i = 0; i < contrasenaUsuario.length; i++) {
             if (contrasenaUsuario[i] === contrasenaUsuario[i].toUpperCase()) {
-                return true;  
+                return bool = true;  
                 }
             }
+            alert("2")
             return false;
     }
 
@@ -34,9 +39,10 @@ function contraseña()
         const caracteresEspeciales = "!@#$%^&*";
         for (let i = 0; i < contrasenaUsuario.length; i++) {
             if (caracteresEspeciales.indexOf(contrasenaUsuario[i]) !== -1) {
-                return true;  
+                return bool = true;  
             }
         }
+        alert("3");
             return false;
     }
     
